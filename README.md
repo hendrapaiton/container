@@ -61,6 +61,8 @@ $ podman run -dt -p 8000:8000/tcp localhost/fastapi
 Finally check if container already run.
 ```bash
 $ podman ps -a
+CONTAINER ID  IMAGE                     COMMAND               CREATED         STATUS             PORTS                   NAMES
+3f7474cd97c5  localhost/fastapi:latest  uvicorn server.ap...  52 seconds ago  Up 51 seconds ago  0.0.0.0:8000->8000/tcp  nervous_galois
 ```
 
 ## Testing application in container
