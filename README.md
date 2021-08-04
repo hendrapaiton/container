@@ -75,5 +75,9 @@ $ curl localhost:8000
 ---
 
 ### Reference
+
 [Fastapi Tutorial](https://fastapi.tiangolo.com/tutorial/first-steps/)
-[Podman Tutorial](https://podman.io/getting-started/)
+
+[Podman Container Tutorial](https://podman.io/getting-started/)
+
+[Podman Pod Tutorial](https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods#pods_and_container_management)
